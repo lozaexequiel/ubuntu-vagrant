@@ -26,8 +26,7 @@ Vagrant.configure("2") do |config|
       
 	  # Configure xrdp to use xfce
 	  echo "xfce4-session" >~/.xsession
-	  service xrdp restart
-    
+	  service xrdp restart    
 	SHELL
       
       end
